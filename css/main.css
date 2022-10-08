@@ -30,16 +30,18 @@ h1, h2, p {
 
 }
 
-.top-panel{
 
-  background-color: rgb(236, 55, 55);
+.content, .bottom-panel, .top-panel, .right-panel, .left-panel {
 
+  border: 1px solid black;
+
+  border-collapse: collapse;
 
 
 }
 
+
 .bottom-panel{
-  background-color: green;
 
   display: grid;
   grid-template-columns: 15vw 1fr;
@@ -50,8 +52,6 @@ h1, h2, p {
 
 
 .left-panel{
-  background-color: black;
-  color:white;
 
   display: flex;
 
@@ -66,7 +66,6 @@ h1, h2, p {
 
 .right-panel{
 
-  background-color: aqua;
   display: flex;
 
   flex-direction: column;
@@ -74,5 +73,19 @@ h1, h2, p {
   justify-content: space-evenly;
 
 
+
+}
+
+.top-panel, .left-panel{
+
+  background-color: rgb(216, 216, 216);
+
+
+
+}
+
+.nav-item{
+
+  
 
 }
