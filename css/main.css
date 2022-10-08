@@ -44,6 +44,12 @@ html, body, .content{
   background-color: black;
   color:white;
 
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
 
 
 }
@@ -52,6 +58,11 @@ html, body, .content{
 .right-panel{
 
   background-color: aqua;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
 
 
